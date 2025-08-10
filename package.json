@@ -1,0 +1,28 @@
+{
+  "name": "bs5-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple workflow for working with and customizing Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css",
+    "format": "prettier --write ."
+  },
+  "author": "Justyna Spital",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "prettier": "^3.6.2",
+    "sass": "^1.62.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "ignore"
+  }
+}
